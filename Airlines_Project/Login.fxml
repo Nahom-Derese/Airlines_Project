@@ -51,11 +51,11 @@
                   <Image url="@Assests/Password.png" />
                </image>
             </ImageView>
-            <TextField blendMode="MULTIPLY" layoutX="117.0" layoutY="355.5" prefHeight="39.0" prefWidth="288.0" promptText="  username" styleClass="text-field" stylesheets="@Assests/Fx.css">
+            <TextField blendMode="MULTIPLY" layoutX="117.0" layoutY="355.5" prefHeight="39.0" prefWidth="288.0" promptText=" username" styleClass="text-field" stylesheets="@Assests/Fx.css">
                <font>
                   <Font name="Montserrat Medium Italic" size="10.0" />
                </font></TextField>
-            <PasswordField layoutX="117.0" layoutY="411.0" prefHeight="39.0" prefWidth="288.0" promptText="  password" styleClass="text-field" stylesheets="@Assests/Fx.css">
+            <PasswordField layoutX="117.0" layoutY="411.0" prefHeight="39.0" prefWidth="288.0" promptText=" password" styleClass="text-field" stylesheets="@Assests/Fx.css">
                <font>
                   <Font name="Montserrat Light Italic" size="13.0" />
                </font>
