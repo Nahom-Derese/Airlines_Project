@@ -1,0 +1,15 @@
+.text-field {
+  -fx-border-radius: 12;
+  -fx-border-color: rgb(250, 250, 250);
+  -fx-min-width: 289.8;
+  -fx-blend-mode: lighten;
+  -fx-font-size: 1.5em;
+  -fx-background-color: black;
+  -fx-font-family: "Montserrat thin";
+  -fx-font-weigth: 700;
+  -fx-text-fill: white;
+  -fx-border-width: 1.1px;
+  -fx-prompt-text-fill: white;
+  -fx-prompt-text-font-family: "Montserrat thin";
+  -fx-padding: 2 2 2 8;
+}/*# sourceMappingURL=Fx.css.map */

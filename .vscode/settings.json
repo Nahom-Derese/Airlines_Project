@@ -1,0 +1,14 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/opt/javafx-sdk-18.0.1/lib/javafx.base.jar",
+        "/opt/javafx-sdk-18.0.1/lib/javafx.controls.jar",
+        "/opt/javafx-sdk-18.0.1/lib/javafx.fxml.jar",
+        "/opt/javafx-sdk-18.0.1/lib/javafx.graphics.jar",
+        "/opt/javafx-sdk-18.0.1/lib/javafx.media.jar",
+        "/opt/javafx-sdk-18.0.1/lib/javafx.swing.jar",
+        "/opt/javafx-sdk-18.0.1/lib/javafx.web.jar",
+        "/opt/javafx-sdk-18.0.1/lib/javafx-swt.jar",
+        "/usr/share/java/mariadb-jdbc/mariadb-java-client.jar"
+    ]
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane minHeight="600.0" minWidth="900.0" stylesheets="@Assests/Fx.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane accessibleHelp="input your username here...." prefHeight="620.0" prefWidth="479.0" style="-fx-background-color: #F2994A;" translateZ="5.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView disable="true" fitHeight="453.0" fitWidth="445.3" layoutX="21.0" layoutY="105.0" preserveRatio="true">
+               <image>
+                  <Image url="@Assests/BG.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D width="453.0" />
+               </viewport>
+            </ImageView>
+            <ImageView disable="true" fitHeight="207.0" fitWidth="69.0" layoutX="216.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Assests/Logo.png" />
+               </image>
+            </ImageView>
+            <ImageView disable="true" fitHeight="22.5" fitWidth="94.5" layoutX="193.5" layoutY="147.0">
+               <image>
+                  <Image url="@Assests/LOGIN.png" />
+               </image>
+            </ImageView>
+            <ImageView disable="true" fitHeight="145.5" fitWidth="112.5" layoutX="111.0" layoutY="192.0">
+               <image>
+                  <Image url="@Assests/USER.png" />
+               </image>
+            </ImageView>
+            <ImageView disable="true" fitHeight="145.5" fitWidth="112.5" layoutX="253.5" layoutY="192.0">
+               <image>
+                  <Image url="@Assests/ADMIN.png" />
+               </image>
+            </ImageView>
+            <ImageView disable="true" fitHeight="45.0" fitWidth="345.0" layoutX="67.5" layoutY="352.5">
+               <image>
+                  <Image url="@Assests/Username.png" />
+               </image>
+            </ImageView>
+            <ImageView disable="true" fitHeight="45.0" fitWidth="345.0" layoutX="67.5" layoutY="408.0">
+               <image>
+                  <Image url="@Assests/Password.png" />
+               </image>
+            </ImageView>
+            <TextField blendMode="MULTIPLY" layoutX="117.0" layoutY="355.5" prefHeight="39.0" prefWidth="288.0" promptText="  username" styleClass="text-field" stylesheets="@Assests/Fx.css">
+               <font>
+                  <Font name="Montserrat Medium Italic" size="10.0" />
+               </font></TextField>
+            <PasswordField layoutX="117.0" layoutY="411.0" prefHeight="39.0" prefWidth="288.0" promptText="  password" styleClass="text-field" stylesheets="@Assests/Fx.css">
+               <font>
+                  <Font name="Montserrat Light Italic" size="13.0" />
+               </font>
+            </PasswordField>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane disable="true" prefHeight="400.0" prefWidth="191.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView disable="true" fitHeight="713.0" fitWidth="411.0" layoutX="-216.0" layoutY="-93.0">
+               <image>
+                  <Image url="@Assests/bg_image.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </right>
+   <center>
+      <AnchorPane disable="true" prefHeight="620.0" prefWidth="0.0" translateZ="-2.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-31.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="620.0" fitWidth="150.0" layoutX="-4.0">
+               <image>
+                  <Image url="@Assests/Vector.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </center>
+</BorderPane>
