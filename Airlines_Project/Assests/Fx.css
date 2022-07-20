@@ -1,15 +1,66 @@
 .text-field {
   -fx-border-radius: 12;
+  border-radius: 12;
   -fx-border-color: rgb(250, 250, 250);
+  border-color: rgb(250, 250, 250);
   -fx-min-width: 289.8;
+  min-width: 289.8;
   -fx-blend-mode: lighten;
+  mix-blend-mode: lighten;
   -fx-font-size: 1.5em;
+  font-size: 1.5em;
   -fx-background-color: black;
-  -fx-font-family: "Montserrat thin";
-  -fx-font-weigth: 700;
+  background-color: black;
+  -fx-font-family: "Poppins";
+  font-family: "Poppins";
+  -fx-font-weight: 600;
+  font-weight: 600;
   -fx-text-fill: white;
   -fx-border-width: 1.1px;
+  border-width: 1.1px;
   -fx-prompt-text-fill: white;
-  -fx-prompt-text-font-family: "Montserrat thin";
+  text-emphasis-color: white;
+  -fx-prompt-text-font-family: "Montserrat";
+  font-family: "Montserrat";
   -fx-padding: 2 2 2 8;
-}/*# sourceMappingURL=Fx.css.map */
+  padding: 2 2 2 8;
+}
+
+.btn {
+  -fx-background-color: #2A2A2A;
+  background-color: #2A2A2A;
+  -fx-background-radius: 12;
+  -fx-border-radius: 12;
+  border-radius: 12;
+  -fx-border-width: 2px;
+  border-width: 2px;
+  -fx-border-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  -fx-font-family: "Montserrat";
+  font-family: "Montserrat";
+  -fx-font-size: 1.2em;
+  font-size: 1.2em;
+  -fx-font-weight: 800;
+  font-weight: 800;
+  -fx-padding: 5;
+  padding: 5;
+  -fx-text-fill: white;
+  -fx-alignment: CENTER;
+  -fx-transition: 300ms;
+  transition: 300ms;
+}
+
+.btn:hover {
+  -fx-background-color: #FFFFFF;
+  background-color: #FFFFFF;
+  -fx-text-fill: #2A2A2A;
+  -fx-border-color: #2A2A2A;
+  border-color: #2A2A2A;
+  -fx-border-width: 2px;
+  border-width: 2px;
+}
+
+
+#frgt {
+  -fx-text-style: underline;
+}

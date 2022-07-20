@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
@@ -9,7 +11,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane minHeight="600.0" minWidth="900.0" stylesheets="@Assests/Fx.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane minHeight="600.0" minWidth="900.0" stylesheets="@Assests/Fx.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Airlines_Project.Login_Controller">
    <left>
       <AnchorPane accessibleHelp="input your username here...." prefHeight="620.0" prefWidth="479.0" style="-fx-background-color: #F2994A;" translateZ="5.0" BorderPane.alignment="CENTER">
          <children>
@@ -31,15 +33,21 @@
                   <Image url="@Assests/LOGIN.png" />
                </image>
             </ImageView>
-            <ImageView disable="true" fitHeight="145.5" fitWidth="112.5" layoutX="111.0" layoutY="192.0">
+            <ImageView fx:id="Choose_User" fitHeight="145.5" fitWidth="112.5" layoutX="111.0" layoutY="192.0" onMouseClicked="#User">
                <image>
                   <Image url="@Assests/USER.png" />
                </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </ImageView>
-            <ImageView disable="true" fitHeight="145.5" fitWidth="112.5" layoutX="253.5" layoutY="192.0">
+            <ImageView fx:id="Choose_Admin" fitHeight="145.5" fitWidth="112.5" layoutX="253.5" layoutY="192.0" onMouseClicked="#Admin">
                <image>
                   <Image url="@Assests/ADMIN.png" />
                </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </ImageView>
             <ImageView disable="true" fitHeight="45.0" fitWidth="345.0" layoutX="67.5" layoutY="352.5">
                <image>
@@ -51,15 +59,22 @@
                   <Image url="@Assests/Password.png" />
                </image>
             </ImageView>
-            <TextField blendMode="MULTIPLY" layoutX="117.0" layoutY="355.5" prefHeight="39.0" prefWidth="288.0" promptText=" username" styleClass="text-field" stylesheets="@Assests/Fx.css">
+            <TextField fx:id="uname_field" blendMode="MULTIPLY" layoutX="117.0" layoutY="355.5" onAction="#Login" prefHeight="39.0" prefWidth="288.0" promptText=" username" styleClass="text-field" stylesheets="@Assests/Fx.css">
                <font>
-                  <Font name="Montserrat Medium Italic" size="10.0" />
+                  <Font name="Montserrat Light Italic" size="10.0" />
                </font></TextField>
-            <PasswordField layoutX="117.0" layoutY="411.0" prefHeight="39.0" prefWidth="288.0" promptText=" password" styleClass="text-field" stylesheets="@Assests/Fx.css">
+            <PasswordField fx:id="password_field" layoutX="117.0" layoutY="411.0" onAction="#Login" prefHeight="39.0" prefWidth="288.0" promptText=" password" styleClass="text-field" stylesheets="@Assests/Fx.css">
                <font>
                   <Font name="Montserrat Light Italic" size="13.0" />
                </font>
             </PasswordField>
+            <Button fx:id="Login" layoutX="335.0" layoutY="465.0" mnemonicParsing="false" onAction="#Login" prefHeight="32.0" prefWidth="77.0" styleClass="btn" text="Login" />
+            <Button id="frgt" fx:id="frgt" layoutX="68.0" layoutY="489.0" mnemonicParsing="false" onAction="#Forogot" style="-fx-background-color: none;" text="Forgot passord ?" textFill="WHITE" />
+            <Button fx:id="Sign_Up" layoutX="205.0" layoutY="522.0" mnemonicParsing="false" onAction="#Sign_up_Scene" style="-fx-background-color: none;" text="Sign up" textFill="WHITE">
+               <font>
+                  <Font name="Poppins SemiBold" size="18.0" />
+               </font>
+            </Button>
          </children>
       </AnchorPane>
    </left>
