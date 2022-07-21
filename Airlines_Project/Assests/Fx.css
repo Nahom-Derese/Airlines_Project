@@ -29,7 +29,7 @@
 .btn {
   -fx-background-color: #2A2A2A;
   background-color: #2A2A2A;
-  -fx-background-radius: 12;
+  -fx-background-radius: 15;
   -fx-border-radius: 12;
   border-radius: 12;
   -fx-border-width: 2px;
@@ -60,7 +60,28 @@
   border-width: 2px;
 }
 
+#logout {
+  -fx-background-color: #FFFFFF;
+  background-color: #FFFFFF;
+  -fx-text-fill: #2A2A2A;
+  -fx-border-color: #2A2A2A;
+  border-color: #2A2A2A;
+  -fx-border-width: 2px;
+  border-width: 2px;
+  -fx-font-size: 1em
+}
+
+#logout:hover {
+  -fx-background-color: #2A2A2A;
+  background-color: #2A2A2A;
+  -fx-text-fill: white;
+}
 
 #frgt {
   -fx-text-style: underline;
+}
+
+
+#main_user {
+  -fx-background-color :  #F2994A;
 }

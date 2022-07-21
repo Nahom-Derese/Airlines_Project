@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" stylesheets="@Assests/Fx.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Airlines_Project.UserPage_Controller">
+   <left>
+      <AnchorPane id="main_user" prefHeight="600.0" prefWidth="631.0" stylesheets="@Assests/Fx.css" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <AnchorPane prefHeight="600.0" prefWidth="274.0" style="-fx-background-color: beige;" BorderPane.alignment="CENTER">
+         <children>
+            <Button id="logout" fx:id="Logout" layoutX="180.0" layoutY="545.0" mnemonicParsing="false" onAction="#Logout" prefHeight="29.0" prefWidth="63.0" styleClass="btn" stylesheets="@Assests/Fx.css" text="Logout">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+            <Label fx:id="user_Name" accessibleText="Name Will Be Here" layoutX="81.0" layoutY="221.0" prefHeight="45.0" prefWidth="114.0" text="Name Will Be here" textOverrun="CENTER_WORD_ELLIPSIS" underline="true" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
