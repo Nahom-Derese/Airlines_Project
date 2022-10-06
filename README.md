@@ -45,52 +45,6 @@ This desktop app uses a number of open source projects to work properly:
 And of course Airlines Management System itself is open source with a [public repository](https://github.com/Nahom-Derese/Airlines_Project)
  on GitHub.
 
-## Installation
-
-Airlines Management System requires [JRE](https://www.java.com/en/download/) to run.
-
-Install the dependencies and devDependencies and install the app by downloading the excutable.
-
-```sh
-cd AirlinesManagementSystem
-npm i
-node app
-```
-
-For production environments...
-
-```sh
-npm install --production
-NODE_ENV=production node app
-```
-
-## Development
-
-Want to contribute? Great!
-
-Airlines Management System uses Gulp + Webpack for fast developing.
-Make a change in your file and instantaneously see your updates!
-
-Open your favorite Terminal and run these commands.
-
-First Tab:
-
-```sh
-node app
-```
-
-Second Tab:
-
-```sh
-gulp watch
-```
-
-(optional) Third:
-
-```sh
-karma test
-```
-
 
 
 ## License
