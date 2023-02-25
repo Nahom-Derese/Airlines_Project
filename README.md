@@ -4,7 +4,7 @@
 ![Book Status](https://img.shields.io/badge/get-ticket-yellow) ![Place](https://img.shields.io/badge/made_with-java-green) 
 ![stars](https://img.shields.io/github/stars/Nahom-Derese/Airlines_Project?style=flat-square) ![LICENSE](https://img.shields.io/github/license/Nahom-Derese/Airlines_Project?color=red&style=flat-square)
 # Airlines Management System
-### _Made for Second Year Second Semester Final Project_
+### _Sophomore Second Semester Final Project_
 
 This desktop application abels users or passengers to register and use the account to search, check, book flight and be notified when the flight date are approaching. The seamless UI ables users to do what they intend to do conviniently. Simple yet very functional app. Inspired by Ethiopian Airlines mobile app.
 
