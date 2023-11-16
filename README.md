@@ -6,17 +6,17 @@
 # Airlines Management System
 ### _Final Project for Sophomore, Second Semester_
 
-This desktop application abels users or passengers to register and use the account to search, check, book flight and be notified when the flight date are approaching. The seamless UI ables users to do what they intend to do conviniently. Simple yet very functional app. Inspired by Ethiopian Airlines mobile app.
+This desktop application enables users or passengers to register and use the account to search, check, book flights, and be notified when the flight date is approaching. The seamless UI enables users to do what they intend to do conveniently. Simple yet very functional app. Inspired by the Ethiopian Airlines mobile app.
 
 - Simple (Minimal UI)
 - Easy to get your first flight Booked
-- User data save on a database✨
+- User data saved on a database✨
 
 ## Features
 
-- Create an account on the app in the Sign Up page
+- Create an account on the app on the Sign-Up page
 - Login to account
-- Search for Flight with you favourite destination and source, with specific time
+- Search for a Flight with your favorite destination and source, with a specific time
 - Auto Complete feature on the search bar for source or destination
 - Book A Flight
 - Select A seat on the plane you choose
@@ -33,16 +33,16 @@ This desktop application abels users or passengers to register and use the accou
 
 ## Tech
 
-This desktop app uses a number of open source projects to work properly:
+This desktop app uses a number of open-source projects to work properly:
 
 - [JAVA](https://www.java.com) - a high-level, class-based, object-oriented programming language
-- [VS CODE](https://code.visualstudio.com/) - awesome text editor made by microsoft
+- [VS CODE](https://code.visualstudio.com/) - awesome text editor made by Microsoft
 - [JAVA FX](https://openjfx.io/) - a software platform for creating and delivering desktop applications, 
 - [Twitter Bootstrap] - great UI boilerplate for modern web apps
 - [MY SQL](https://www.mysql.com/) - fast open-source relational database management system
 - [CSS](https://www.w3schools.com/css/) - for styling the whole UI
 
-And of course Airlines Management System itself is open source with a [public repository](https://github.com/Nahom-Derese/Airlines_Project)
+And of course, Airlines Management System itself is open source with a [public repository](https://github.com/Nahom-Derese/Airlines_Project)
  on GitHub.
 
 
